@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/AutoComplete_layout_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/auto_complete_work_name"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textSize="@dimen/Text_autoComplete" />
+
+
+</android.support.v7.widget.CardView>

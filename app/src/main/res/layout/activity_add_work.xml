@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:stretchColumns="*"
+    tools:context=".AddWorkActivity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.florent37.materialtextfield.MaterialTextField
+            android:id="@+id/workName_material"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            app:mtf_image="@drawable/work"
+            app:mtf_labelColor="#666">
+
+            <EditText
+                android:id="@+id/workName_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/add_work_edit_text_name"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="#333" />
+
+        </com.github.florent37.materialtextfield.MaterialTextField>
+
+    </TableRow>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:id="@+id/materialTextDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                app:mtf_image="@drawable/calendar_date"
+                app:mtf_labelColor="#666">
+
+                <EditText
+                    android:id="@+id/datePicker_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:enabled="true"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/add_work_edit_text_date"
+                    android:inputType="date"
+                    android:lines="1"
+                    android:text="--/--/--"
+                    android:textAlignment="center"
+                    android:textColor="#333" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/point_view_layout"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/button_add" />
+
+
+</TableLayout>

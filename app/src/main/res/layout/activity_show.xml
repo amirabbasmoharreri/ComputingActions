@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ShowActivity"
+    android:padding="25dp"
+    android:stretchColumns="*">
+
+
+    <TableRow>
+
+        <com.github.florent37.materialtextfield.MaterialTextField
+            android:id="@+id/start_calender_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:mtf_image="@drawable/calendar_date"
+            app:mtf_labelColor="#666">
+
+            <EditText
+                android:id="@+id/start_calender_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/start_calender"
+                android:text="--/--/--"
+                android:textAlignment="center"/>
+        </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <com.github.florent37.materialtextfield.MaterialTextField
+            android:id="@+id/end_calender_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:mtf_image="@drawable/calendar_date"
+            app:mtf_labelColor="#666">
+
+            <EditText
+                android:id="@+id/end_calender_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/end_calender"
+                android:text="--/--/--"
+                android:textAlignment="center"/>
+        </com.github.florent37.materialtextfield.MaterialTextField>
+
+    </TableRow>
+
+    <TableRow>
+
+        <com.github.florent37.materialtextfield.MaterialTextField
+            android:id="@+id/show_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:mtf_image="@drawable/pie_chart"
+            app:mtf_labelColor="#666">
+
+            <EditText
+                android:id="@+id/show_type_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/show_type"
+                android:textAlignment="center"/>
+        </com.github.florent37.materialtextfield.MaterialTextField>
+
+    </TableRow>
+
+    <TableRow android:id="@+id/tableRow_specific_work">
+
+        <com.github.florent37.materialtextfield.MaterialTextField
+            android:id="@+id/specific_work"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:mtf_image="@drawable/work"
+            app:mtf_labelColor="#666">
+
+            <EditText
+                android:id="@+id/specific_work_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/show_type"
+                android:textAlignment="center"
+                android:imeOptions="actionDone"
+                android:singleLine="true"/>
+        </com.github.florent37.materialtextfield.MaterialTextField>
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/showActivity_showButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/show_button"
+            android:layout_marginTop="25dp" />
+    </TableRow>
+
+
+</TableLayout>

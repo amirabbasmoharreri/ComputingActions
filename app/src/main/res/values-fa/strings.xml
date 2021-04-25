@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">محاسبه فعالیت ها</string>
+    <string name="Good">خوب</string>
+    <string name="Medium">متوسط</string>
+    <string name="Bad">بد</string>
+    <string name="Reward">پاداش</string>
+    <string name="Penalty">جریمه</string>
+    <string name="button_add">اضافه کردن</string>
+    <string name="button_next">بعدی</string>
+    <string name="save_pass">تغییر رمز</string>
+    <string name="custom_dialog_password_save_button">ذخیره</string>
+    <string name="show_button">نمایش</string>
+    <string name="dialog_update_button_cancel">لغو</string>
+    <string name="dialog_update_button_update">به روز کردن</string>
+    <string name="tap_target_title_action_button">دکمه اصلی قابلیت ها</string>
+    <string name="tap_target_description_action_button">این دکمه 4 قابلیت دارد</string>
+    <string name="tap_target_title_action_button_4">دکمه اضافه کردن کارها</string>
+    <string name="tap_target_description_action_button_4">برای اضافه کردن کار ها</string>
+    <string name="tap_target_title_action_button_3">دکمه نمایش نموار</string>
+    <string name="tap_target_description_action_button_3">برای نمایش نمودار</string>
+    <string name="tap_target_title_action_button_2">دکمه پاداش</string>
+    <string name="tap_target_description_acton_button_2">برای اضافه کردن پاداش ها   در دست ساخت</string>
+    <string name="tap_target_title_action_button_1">دکمه جریمه</string>
+    <string name="tap_target_description_action_button_1">برای اضافه کردن جریمه  در دست ساخت</string>
+    <string name="tap_target_title_reset_password_button">دکمه تغییر رمز</string>
+    <string name="tap_target_description_reset_password_button">شما باید 3 سوال و جواب ذخیره کنید برای تغییر رمز در آینده</string>
+    <string name="toast_action_button_penalty_activity">صفحه جریمه در دست ساخت</string>
+    <string name="toast_action_button_reward_activity">صفحه پاداش در دست ساخت</string>
+    <string name="toast_saved_password">رمز شما ذخیره شده</string>
+    <string name="toast_true_password">رمز درست است</string>
+    <string name="toast_false_password">رمز غلط است</string>
+    <string name="toast_mistake_answer">شما اشتباه کردید</string>
+    <string name="custom_dialog_password_question">سوال</string>
+    <string name="custom_dialog_password_answer">جواب</string>
+    <string name="custom_dialog_password_password">رمز</string>
+    <string name="custom_dialog_password_retry_password">تکرار رمز</string>
+    <string name="dialog_update_edit_text_year">سال</string>
+    <string name="dialog_update_edit_text_month">ماه</string>
+    <string name="dialog_update_edit_text_day">روز</string>
+    <string name="dialog_reset_password_title">تغییر رمز</string>
+    <string name="auto_complete_work_name">نام کار</string>
+    <string name="No_Suggestion">پیشنهادی وجود ندارد</string>
+    <string name="axe_x_work">کار</string>
+    <string name="axe_y_number">تعداد</string>
+    <string name="axe_y_point">امتیاز</string>
+    <string name="axe_x_condition">وضعیت</string>
+    <string name="axe_y_percent">درصد</string>
+    <string name="axe_x_date">تاریخ</string>
+    <string name="login_activity_title">ورود</string>
+    <string name="main_activity_title">محاسبه فعالیت ها</string>
+    <string name="show_activity_title">نمایش نمودار</string>
+    <string name="show_chart_activity_title">نمودار</string>
+    <string name="special_work_activity_title">کارها</string>
+    <string name="splash_activity_title">انتخاب زبان</string>
+    <string name="add_work_activity_title">اضافه کردن کار</string>
+    <string name="prompt">یک مورد را انتخاب کنید</string>
+    <string name="editText_work">کار</string>
+    <string name="view_year_s_point">: امتیاز سال</string>
+    <string name="view_month_s_point">: امتیاز ماه</string>
+    <string name="view_day_s_point">: امتیاز روز</string>
+    <string name="view_point">امتیاز</string>
+    <string name="editText_password">رمز عبور</string>
+    <string name="show_work_tvName">: نام</string>
+    <string name="show_work_tvCondition">: وضعیت</string>
+    <string name="default_value">0</string>
+    <string name="show_work_tvPoint">: امتیاز</string>
+    <string name="start_calender">تاریخ شروع</string>
+    <string name="end_calender">تاریخ پایان</string>
+    <string name="show_type">نوع نمایش</string>
+    <string name="show_work_tvDate">: تاریخ</string>
+    <string name="add_work_edit_text_name">کار</string>
+    <string name="add_work_edit_text_date">تاریخ</string>
+    <string name="menu_delete_item">حذف</string>
+    <string name="toast_delete_item">حذف شد</string>
+    <string name="toast_add_button_save_work">ذخیره شد</string>
+    <string name="alert_dialog_error">خطا</string>
+    <string name="show_activity_alert_dialog_start_date">لطفا تاریخ شروع را وارد کنید</string>
+    <string name="show_activity_alert_dialog_end_date">لطفا تاریخ پایان را وارد کنید</string>
+    <string name="show_activity_alert_dialog_type">لطفا نوع نمایش را انتخاب کنید</string>
+    <string name="show_activity_alert_dialog_work_name">لطفا نام کار مورد نظر را وارد کنید</string>
+    <string name="alert_dialog_button_ok">خُب</string>
+    <string name="add_work_activity_work_name">لطفا نام کار مورد نظر را وارد کنید</string>
+    <string name="add_work_activity_date">لطفا تاریخ مورد نظر را وارد کنید</string>
+
+
+    <string-array name="ShowReports">
+        <item>فراوانی کار</item>
+        <item>امتیازات</item>
+        <item>وضعیت ها</item>
+        <item>براساس کار</item>
+        <item>صعودی</item>
+    </string-array>
+
+</resources>

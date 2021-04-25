@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Computing Actions</string>
+    <string name="Good">Good</string>
+    <string name="Medium">Medium</string>
+    <string name="Bad">Bad</string>
+    <string name="Reward">Reward</string>
+    <string name="Penalty">Penalty</string>
+    <string name="prompt">Choose one of type</string>
+    <string name="editText_work">Work</string>
+    <string name="button_add">Add</string>
+    <string name="view_year_s_point">Year\'s Point :</string>
+    <string name="view_month_s_point">Month\'s Point :</string>
+    <string name="view_day_s_point">Day\'s Point :</string>
+    <string name="view_point">Point</string>
+    <string name="editText_password">Password</string>
+    <string name="button_next">Next</string>
+    <string name="show_work_tvName">Name :</string>
+    <string name="show_work_tvCondition">Condition :</string>
+    <string name="default_value">0</string>
+    <string name="show_work_tvPoint">Point :</string>
+    <string name="save_pass">Reset Pass</string>
+    <string name="No_Suggestion">No Suggestion</string>
+    <string name="start_calender">Start Calender</string>
+    <string name="end_calender">End Calender</string>
+    <string name="show_type">Show Type</string>
+    <string name="show_work_tvDate">Date :</string>
+    <string name="login_activity_title">Login</string>
+    <string name="main_activity_title">Computing Action</string>
+    <string name="show_activity_title">Show Chart</string>
+    <string name="show_chart_activity_title">Chart</string>
+    <string name="special_work_activity_title">Works</string>
+    <string name="splash_activity_title">Choose Language</string>
+    <string name="add_work_activity_title">Add Work</string>
+    <string name="tap_target_title_action_button">Original Button Capabilities</string>
+    <string name="tap_target_description_action_button">It have 4 action</string>
+    <string name="tap_target_title_action_button_4">Add Work Button</string>
+    <string name="tap_target_description_action_button_4">for adding works</string>
+    <string name="tap_target_title_action_button_3">Show Chart Button</string>
+    <string name="tap_target_description_action_button_3">for showing charts</string>
+    <string name="tap_target_title_action_button_2">Reward Button</string>
+    <string name="tap_target_description_acton_button_2">for adding reward  under construction</string>
+    <string name="tap_target_title_action_button_1">Penalty Button</string>
+    <string name="tap_target_description_action_button_1">for adding penalty   under construction</string>
+    <string name="toast_action_button_penalty_activity">PenaltyActivity Under Construction</string>
+    <string name="toast_action_button_reward_activity">RewardActivity Under Construction</string>
+    <string name="toast_saved_password">Your Password is Saved</string>
+    <string name="tap_target_title_reset_password_button">Reset Password Button</string>
+    <string name="tap_target_description_reset_password_button">you are set 3 question and answer for reset password in future</string>
+    <string name="toast_true_password">Pass is True</string>
+    <string name="toast_false_password">Pass is false</string>
+    <string name="custom_dialog_password_question">Question</string>
+    <string name="custom_dialog_password_answer">Answer</string>
+    <string name="custom_dialog_password_password">Password</string>
+    <string name="custom_dialog_password_retry_password">Confirm Password</string>
+    <string name="custom_dialog_password_save_button">Save</string>
+    <string name="toast_mistake_answer">You are Mistake</string>
+    <string name="axe_x_work">Work</string>
+    <string name="axe_y_number">Number</string>
+    <string name="axe_y_point">Point</string>
+    <string name="axe_x_condition">Condition</string>
+    <string name="axe_y_percent">Percent</string>
+    <string name="axe_x_date">Date</string>
+    <string name="add_work_edit_text_name">Work</string>
+    <string name="add_work_edit_text_date">Date</string>
+    <string name="show_button">Show</string>
+    <string name="auto_complete_work_name">Work Name</string>
+    <string name="dialog_update_edit_text_year">Year</string>
+    <string name="dialog_update_edit_text_month">Month</string>
+    <string name="dialog_update_edit_text_day">Day</string>
+    <string name="dialog_reset_password_title">Reset Password</string>
+    <string name="dialog_update_button_cancel">Cancel</string>
+    <string name="dialog_update_button_update">Update</string>
+    <string name="menu_delete_item">Delete</string>
+    <string name="toast_delete_item">Deleted</string>
+    <string name="toast_add_button_save_work">Saved</string>
+    <string name="alert_dialog_error">Error</string>
+    <string name="show_activity_alert_dialog_start_date">Please Enter Start of Date</string>
+    <string name="show_activity_alert_dialog_end_date">Please Enter End of Date</string>
+    <string name="show_activity_alert_dialog_type">Please Enter Type of Show</string>
+    <string name="show_activity_alert_dialog_work_name">Please Enter Work Name</string>
+    <string name="alert_dialog_button_ok">OK</string>
+    <string name="add_work_activity_work_name">Please Enter Name of Work</string>
+    <string name="add_work_activity_date">Please Enter Date</string>
+
+
+    <string-array name="ShowReports">
+        <item>Frequency of Work</item>
+        <item>Points</item>
+        <item>Conditions</item>
+        <item>Specific Work</item>
+        <item>Ascending</item>
+    </string-array>
+
+
+</resources>

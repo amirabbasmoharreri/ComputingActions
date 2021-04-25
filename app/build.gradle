@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.abbasmoharreri.computingactions"
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main { assets.srcDirs = ['src/main/assets'] }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'com.android.support:support-v4:28.0.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'org.jetbrains:annotations-java5:15.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.github.lecho:hellocharts-library:1.5.8@aar'
+    implementation 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
+    implementation 'com.otaliastudios:autocomplete:1.1.0'
+    implementation 'com.github.florent37:materialtextfield:1.0.7'
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    implementation 'com.xw.repo:bubbleseekbar:3.19-lite'
+    implementation 'com.mohamadamin:persianmaterialdatetimepicker:1.2.1'
+    implementation 'info.hoang8f:fbutton:1.0.5'
+    implementation 'com.getkeepsafe.taptargetview:taptargetview:1.12.0'
+
+}

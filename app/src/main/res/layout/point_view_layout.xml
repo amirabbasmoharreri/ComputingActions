@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+
+    <EditText
+        android:text="@string/show_work_tvPoint"
+        android:textColor="#000"
+        android:id="@+id/update_point_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.xw.repo.BubbleSeekBar
+        android:id="@+id/update_work_point_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:paddingBottom="20dp"
+        app:bsb_auto_adjust_section_mark="true"
+        app:bsb_bubble_color="@android:color/holo_red_light"
+        app:bsb_bubble_text_color="@color/colorPrimaryDark"
+        app:bsb_max="10"
+        app:bsb_min="-10"
+        app:bsb_progress="0"
+        app:bsb_second_track_color="@android:color/holo_red_light"
+        app:bsb_section_count="20"
+        app:bsb_section_text_position="bottom_sides"
+        app:bsb_show_progress_in_float="false"
+        app:bsb_show_section_mark="true"
+        app:bsb_show_section_text="true"
+        app:bsb_show_thumb_text="true"
+        app:bsb_touch_to_seek="true"
+        app:bsb_track_color="@android:color/darker_gray" />
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/update_dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_dialog"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:theme="@style/NoWindow">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="Id :"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/update_work_id_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Id"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+
+        <TableRow android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="@string/show_work_tvName"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/update_work_name_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:textAlignment="center"
+                android:textColor="#333" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_marginTop="15dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:text="@string/show_work_tvDate"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <include
+                layout="@layout/date_increase_decrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="@string/show_work_tvPoint"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <include
+                layout="@layout/point_view_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+        </TableRow>
+
+        <TableRow android:layout_marginTop="15dp">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/update_work_button_cancel"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:text="@string/dialog_update_button_cancel" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/update_work_button_update"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/dialog_update_button_update"
+                android:textAlignment="center" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

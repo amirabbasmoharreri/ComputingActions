@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padTextView">10dp</dimen>
+    <dimen name="padLinearLayout">15dp</dimen>
+    <dimen name="tvSizePoint">20dp</dimen>
+    <dimen name="componentTopMargin">20dp</dimen>
+    <dimen name="button_textSize">20dp</dimen>
+    <dimen name="cardView_margin">20dp</dimen>
+    <dimen name="cardCornerRadius">10dp</dimen>
+    <dimen name="Text_autoComplete">20dp</dimen>
+    <dimen name="pie_chart_text1_size">60sp</dimen>
+    <dimen name="pie_chart_text2_size">30sp</dimen>
+    <dimen name="pie_chart_mini_text1_size">20sp</dimen>
+    <dimen name="pie_chart_mini_text2_size">15sp</dimen>
+</resources>

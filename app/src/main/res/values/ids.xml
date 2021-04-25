@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="subActionButton1" type="id"/>
+    <item name="subActionButton2" type="id"/>
+    <item name="subActionButton3" type="id"/>
+    <item name="subActionButton4" type="id"/>
+    <item name="ActionButton" type="id"/>
+
+</resources>

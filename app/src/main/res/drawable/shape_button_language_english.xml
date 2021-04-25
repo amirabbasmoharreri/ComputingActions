@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape
+            android:tint="@color/Blue_Eyes">
+
+            <corners android:bottomRightRadius="20000dp"/>
+
+            <gradient
+                android:centerColor="#D6D6D6"
+                android:startColor="#4B6CD6"
+                android:angle="45"
+                android:type="linear" />
+
+            <stroke android:width="20dp"
+                android:color="@color/Blue_Jay"/>
+        </shape>
+    </item>
+
+</selector>
